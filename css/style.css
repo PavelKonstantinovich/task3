@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-image: url(../img/sky.jpg);
+    background-size: cover;
+    padding-top: 100px;
+}
+
+h1 {
+    color: #003395;
+    font-size: 54px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+header p {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 100px;
+}
+
+nav {
+    background: #003395;
+    font-weight: 400;
+    font-size: 18px;
+    margin: auto;
+    letter-spacing: 2px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 25px 60px 25px 0;
+}
+
+nav a:hover {
+    background: #24B0FF;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+main {
+    padding: 50px 0 60px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 27px;
+}
+
+section {
+    display: inline-block;
+    width: 67%;
+    vertical-align: top;
+}
+
+section h2 {
+
+    color: #003395;
+    border-top: 2px solid #003395;
+    border-bottom: 2px solid #003395;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+section div{
+    margin-bottom: 30px;
+}
+aside {
+    vertical-align: top;
+    display: inline-block;
+    width: 30%;
+    margin-left: 30px;
+}
+
+aside div {
+    padding: 15px;
+    border: 2px solid #33008D;
+    margin-bottom: 45px;
+}
+
+aside h2 {
+    color: white;
+    background: #24B0FF;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+aside p {
+    font-size: 16.2px;
+    font-weight: 400;
+}
+aside a{
+    display: block;
+}
+footer {
+    background: #003395;
+    color: white;
+    font-size: 11.7px;
+    font-weight: 400;
+    text-align: right;
+    padding:40px 0 75px;
+}
